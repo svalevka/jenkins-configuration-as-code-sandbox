@@ -21,7 +21,7 @@ jenkins:
       - key: "jenkinsUrl"
         value: "http://localhost:8080"
       - key: "jenkinsGitRepo"
-        value: "https://github.com/tomasbjerre/jenkins-configuration-as-code-sandbox.git"
+        value: "https://github.com/svalevka/jenkins-configuration-as-code-sandbox.git"
 credentials:
   system:
     domainCredentials:
@@ -46,7 +46,7 @@ unclassified:
           scm:
             git:
               id: "sandbox-repo"
-              remote: "https://github.com/tomasbjerre/jenkins-configuration-as-code-sandbox.git"
+              remote: "https://github.com/svalevka/jenkins-configuration-as-code-sandbox.git"
               traits:
               - cloneOptionTrait:
                   extension:
