@@ -1,0 +1,9 @@
+configuration-as-code
+blueocean
+job-dsl
+cloudbees-folder
+workflow-aggregator
+pipeline-utility-steps
+generic-webhook-trigger
+git-changelog
+violation-comments-to-gitlab

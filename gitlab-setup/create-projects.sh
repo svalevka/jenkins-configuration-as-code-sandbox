@@ -6,7 +6,7 @@ source config.txt
 export $(cut -d= -f1 config.txt)
 token=$(cat /shared/personal-access-token.txt)
 
-for i in `seq 1 20`; do
+for i in `seq 1 2`; do
   export projectName="project${i}name"
   cat $0.json | envsubst > tmp.json
   curl -v \

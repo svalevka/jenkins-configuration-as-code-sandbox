@@ -1,5 +1,5 @@
 jenkins:
-  systemMessage: "See also: https://github.com/tomasbjerre"
+  systemMessage: "JCASC managed"
   numExecutors: 4
   scmCheckoutRetryCount: 2
   mode: NORMAL

@@ -80,7 +80,6 @@ def main():
     csrf2, cookies2 = sign_in(csrf1, cookies1)
     # print("sign_in", csrf2, cookies2)
     authenticity_token = obtain_authenticity_token(cookies2)
-
     name = "Provisioner"
     expires_at = ""
     token = obtain_personal_access_token(name, expires_at, csrf2, cookies2, authenticity_token)

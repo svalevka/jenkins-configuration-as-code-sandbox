@@ -7,7 +7,8 @@ cd "$(dirname "$0")"
 source config.txt
 export $(cut -d= -f1 config.txt)
 
-token=$(./personal_access_token.py)
+# token=$(./personal_access_token.py)
+token='glpat-D-s4XZGnhCgmyFb21PNe'
 
 echo "$token" > /shared/personal-access-token.txt
 echo "personal_access_token=$token" > /shared/shared-env.txt
