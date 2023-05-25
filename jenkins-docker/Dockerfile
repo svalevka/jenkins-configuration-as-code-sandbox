@@ -4,7 +4,7 @@ USER root
 RUN update-ca-certificates
 
 RUN apt-get update
-RUN apt-get install -y zip python python3-pip npm jq wget curl unzip
+RUN apt-get install -y zip python python3-pip npm jq wget curl unzip iproute2
 
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 0
 RUN pip3 install python-hcl2 slackclient requests ipaddress hvac

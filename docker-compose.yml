@@ -19,7 +19,7 @@ services:
       - shared-config:/shared
   jenkins-docker:
     build: ./jenkins-docker
-    # network_mode: host
+    # network_mode: host //only required during initial deployment . otherwise plugins are not downloaded from jenkins update site.
     # environment:
       # todo read this from common volume ../gitlab-docker/setup/personal-access-token.txt
       # - personal_access_token=$personal_access_token
